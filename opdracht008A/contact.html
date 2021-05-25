@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> My eerste HTML pagina </title>
+</head>
+
+<body>
+    <h1> Contact form</h1>
+    <form action="name" method="POST" data-netlify="true">
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="user_name">
+        <br>
+        <label for="mail">Your mail:</label>
+        <input type="mail" id="mail" name="user_mail">
+        <br>
+        <label for="tel">Phone number:</label>
+        <input type="text" id="tel" name="user_phone_number">
+        <br>
+        <label for="age">Your age:</label>
+        <input type="text" id="age" name="user_age">
+        <br>
+        <label for="date">Birth date:</label>
+        <input type="date" id="date" name="user_birth_date">
+        <br>
+        <label class="gender" for="gender">Your gender:</label>
+        <input type="radio" id="gender" name="male">Male
+        <input type="radio" id="genderF" name="male">Female
+        <input type="radio" id="genderAll" name="male">Other
+        <br>
+        <label for="Favorire_cousine">TextFavorite cousine:</label>
+        <input type="text" id="Favorire_cousine" text="user_answer">
+        <br>
+        <label for="Favorite_color">Favorite color:</label>
+        <input type="text" id="Favorite_color" text="user-answer">
+        <br>
+        <textarea form="text_area" rows="5" cols="20">
+
+        </textarea>
+        <br>
+        <p>Link to funny video:</p>
+        <p>https://www.youtube.com/watch?v=eX2qFMC8cFo</p>
+        <br>
+        <button id="upload_file" type="upload_file">Upload file</button>
+        <br>
+        <button id="reset" type="reset">Reset</button>
+        <br>
+        <button id="submit_button" type="submit">Submit</button>
+    </form>
+    <br />
+    <a href="index.html">home </a>
+</body>
+
+</html>
